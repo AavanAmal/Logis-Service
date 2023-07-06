@@ -1,0 +1,187 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  list-style-type: none;
+}
+
+:root {
+  --main-color: #2b4570;
+  --black: #333;
+  --color-primary: #0d42ff;
+  --white: #fff;
+  --btn-color: #4BB3E2;
+  --color-default: #0a0d13;
+  --color-secondary: #0e1d34;
+  --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: "Inter", sans-serif;
+  --font-secondary: "Poppins", sans-serif;
+}
+
+.align {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0 3.1rem;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5.3rem;
+  margin: 0 auto;
+}
+
+
+
+
+
+/* Services */
+.Servicescontainer {
+    margin-top: 10%;
+  }
+  
+  .heading {
+    text-align: center;
+  }
+  
+  .Servicescontainer .heading h2 {
+    font-size: 32px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+    color: #001973;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  
+  .Servicescontainer .heading h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: var(--color-primary);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  
+  .Servicescontainer .heading span {
+    position: absolute;
+    margin-top: 20px;
+    color: #0e1d340f;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    font-weight: 700;
+    font-size: 56px;
+    text-transform: uppercase;
+    line-height: 0;
+  }
+  
+  .cardcontainer {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin-right: 4%;
+  }
+  
+  .cardcontainer .card {
+    width: 400px;
+    margin-top: 5%;
+    height: 73vh;
+    margin-left: 7%;
+    position: relative;
+    border: 1px solid rgb(184, 184, 184);
+  }
+  
+  .cardcontainer .card img {
+    width: 100%;
+  }
+  
+  .cardcontainer .card .img {
+    height: 40vh;
+    overflow: hidden;
+    margin-bottom: 15px;
+    border-radius: 0;
+  }
+  
+  .cardcontainer .card .img img {
+    transition: 0.3s;
+  }
+  
+  .cardcontainer .card:hover .img img {
+    transform: scale(1.1);
+  }
+  
+  .cardcontainer .card-text {
+    text-align: start;
+    padding: 20px 25px;
+  }
+  
+  .cardcontainer .card-text h3 {
+    color: #001973;
+    text-transform: uppercase;
+  }
+  
+  .cardcontainer .card-text h3 {
+    color: #0040ff;
+  }
+  
+  .cardcontainer .card-text p {
+    font-weight: 400;
+    margin-top: 3%;
+    font-size: 14.5px;
+  }
+  
+  /* Call to Action */
+  .callcontainer {
+    background: linear-gradient(rgba(14, 29, 52, 0.6), rgba(14, 29, 52, 0.8)), url("Images/cta-bg.jpg") center center;
+    background-size: cover;
+    padding: 120px 0;
+    margin-top: 5%;
+  }
+  
+  .callcontainer .action {
+    color: #fff;
+    text-align: center;
+  }
+  
+  .callcontainer .action h3 {
+    font-size: 27px;
+  }
+  
+  .callcontainer .action p {
+    font-size: 16px;
+    padding-bottom: 40px;
+  }
+  
+  .callcontainer .action a {
+    margin-top: 4%;
+    padding-bottom: 10px;
+  }
+  
+  .callcontainer .action span {
+    padding: 12px 45px;
+    font-weight: 600;
+    border-radius: 5px;
+    background-color: none;
+    border: 2px solid #ffffff;
+  }
+  
+  .callcontainer .action span .btn {
+    margin-top: 5%;
+  }
+  
+  .callcontainer .action span:hover {
+    background-color: #0d42ff;
+    border: 2px solid #0d42ff;
+  }
